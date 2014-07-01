@@ -1,0 +1,154 @@
+/* Guide specific */
+
+#details {
+	position: absolute;
+	right: 2%;
+	bottom: 2%;
+	color: black;
+	width: 25%;
+	font-family: Helvetica, sans-serif;
+	font-size: 16px;
+	background-color: white;
+	border: 2px solid red;
+	border-radius: 2px;
+	overflow: auto;
+}
+
+#details p, #details span {
+	margin: 0 2%;
+
+} 
+
+#details p {
+	font-family: Helvetica, sans-serif;
+	font-size: 16px;
+}
+
+/* Layout CSS */
+
+main {
+	margin: 2% 2%;
+	position: relative;
+	width: 100%;
+}
+
+
+h1, h2, nav ul li, p, small {
+	margin: 5% 0;
+} 
+
+nav ul li {
+	display: inline;
+}
+
+nav ul li:after {
+	content: " | ";
+}
+
+nav ul li:last-child:after {
+	content: "";
+}
+
+#logo {
+	float: right;
+	margin-right: 5%;
+}
+
+/* Font family */
+
+h1 {
+	font-family: 'Shadows Into Light';
+}
+
+h2 {
+	font-family: 'Shadows Into Light';
+}
+
+nav ul li {
+	font-family: 'Shadows Into Light';
+}
+
+p {
+	font-family: 'Noto Sans', sans-serif;
+}
+
+#logo {
+	font-family: 'Shadows Into Light';
+}
+
+small {
+	font-family: 'Noto Sans', sans-serif;
+}
+
+
+/* Font Sizes */
+
+	/* Base size for body copy */
+body {
+	font-size: 20px;
+}
+
+	/* Define in ems, proportional to body copy */
+
+h1 {
+	font-size: 3em; 
+}
+
+h2 {
+	font-size: 1.5em;
+}
+
+nav ul li {
+	font-size: 1.2em;
+}
+
+small {
+	font-size: 0.75em;
+}
+
+#logo {
+	font-size: 3em;
+}
+
+/* Leading */
+
+	/* Good leading is around 120-150% of the body copy size */
+
+body {
+	line-height:1.4;
+}
+
+/* Bold/Italic Weights? */
+
+h1 {
+	font-weight: bold;
+}
+
+h2 {
+	font-weight: bold;
+}
+
+#logo {
+	font-weight: bold;
+}
+
+/* Characters per line */
+
+	/* Characters per line, 50-70(including spaces) is optimal */
+p {
+	max-width: 630px;
+}
+
+/* Colors */
+
+body {
+	background-color: #000;
+}
+
+body {
+	color: #ddd;
+}
+
+#logo {
+	color: lightgreen;
+}
